@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#tree li {
+  margin: 5px 0;
+}
+
+.node {
+  cursor: pointer;
+  padding: 2px 6px;
+}
+
+.node:hover {
+  background-color: #efefef;
+}
