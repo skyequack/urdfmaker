@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>URDF Maker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>URDF Maker</h1>
+  <div id="controls">
+    <button id="add-root">Create Root Node</button>
+  </div>
+  <div id="node-form" class="hidden">
+    <h2>New Node</h2>
+    <label>Name: <input type="text" id="node-name" /></label><br />
+    <label>Mesh file: <input type="text" id="node-mesh" placeholder="path/to/mesh" /></label><br />
+    <button id="save-node">Save</button>
+    <button id="cancel-node">Cancel</button>
+  </div>
+  <h2>Tree</h2>
+  <ul id="tree"></ul>
+
+  <h2>Node Info</h2>
+  <pre id="info"></pre>
+
+  <script src="main.js"></script>
+</body>
+</html>
